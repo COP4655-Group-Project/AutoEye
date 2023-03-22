@@ -1,19 +1,23 @@
 Initial Group App Ideas
 -
 
+
+<!-- josh test -->
+<!-- maggie test -->
+
 1. Taillight App
     - Sign in
     - Report non-functioning taillights on the road
     - Uses back-end database, Vision API for image to text
 2. Song of the Day App
-    - BeReal-esque 
+    - BeReal-esque
     - Register/Login
     - Get notified at random time, have to send in a song you recommend
-    - Could use the API that we used for that one lab with the songs 
+    - Could use the API that we used for that one lab with the songs
 
 3. Calorie Counter App
     - Upload photo of food
-    - Add food 
+    - Add food
     - Create account/login
 4.  Twitter style: Social media
     - Similar to bereal project?
@@ -28,13 +32,13 @@ Initial Group App Ideas
     - Specific breed events (List view/Map of event)
     - Create profile
     - Upload photo of ur dog
-7. Plant/Gardening care app (similar to Planta) 
+7. Plant/Gardening care app (similar to Planta)
     - Feed with other users sharing posts
     - Create account/login
     - Create post
         - Upload/Take photo
         - caption
-        - Location 
+        - Location
     - Meetup events nearby
 
 
@@ -74,5 +78,3 @@ Final App Idea Chosen
         - Access camera and take picture
         - Upload picture feature?
         - Levels/stars for users
-
-
