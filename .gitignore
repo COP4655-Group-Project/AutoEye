@@ -1,0 +1,6 @@
+#user settings
+xcuserdata/
+
+*.xcscmblueprint
+*.xccheckout
+.DS_Store
