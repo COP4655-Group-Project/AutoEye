@@ -1,4 +1,4 @@
-# AutoEye
+# AutoEye (iOS App Project) 
 
 ## Table of Contents
 1. [Overview](#Overview)
