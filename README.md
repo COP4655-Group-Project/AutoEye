@@ -1,6 +1,3 @@
-Original App Design Project
-===
-
 # AutoEye
 
 ## Table of Contents
