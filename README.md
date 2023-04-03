@@ -112,16 +112,37 @@ Our app is designed to help drivers stay safe on the road by promoting community
 
 ### [BONUS] Digital Wireframes & Mockups
 
-
 ![](https://i.imgur.com/Mezzswc.jpg)
 
 ![](https://i.imgur.com/gp4paba.jpg)
 
-## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+| Property | Type | Description |
+| -------- | -------- | -------- |
+| objectId     | String     | unique id for the user post (default)     |
+| image     | file     | image that the user submits     |
+| make     | string     | make of the car reported     |
+| licPlate     | string     | license plate of the car reported     |
+| color     | string     | color of the car reported     |
+| username     | string     | username of the user reporting     |
+| sentAt     | DateTime     | date/time when the report was made     |
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+
+- Launch Screen
+    - (POST) request to the server with the user's login credentials (e.g., username and password) to authenticate the user.
+- Create Account Screen
+    - (POST) request to the server with the user's account information (email, password, license number, username) to create a new account.
+- Registration Screen
+    - (POST) request to the server with the vehicle information provided by the user (license plate number, make/model/color) to associate the vehicle with the user's account.
+- Report Screen
+    - (POST) request to the server with the report information provided by the user (license plate, vehicle make/model/color, location) to submit the report to the server.
+- Notifications Screen
+    - (GET) request to retrieve a list of the user's notifications from the server.
+- User Profile Screen
+    - (GET) request to retrieve the user's profile information from the server.
+    - (Update/PUT) request to update the user's profile information on the server.
+- Camera Screen
+    - (POST) request to upload an image or video captured by the camera to the server.
