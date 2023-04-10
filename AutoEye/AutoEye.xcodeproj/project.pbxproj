@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCB3F1E729E4A40B007ADD76 /* AutoEye.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoEye.entitlements; sourceTree = "<group>"; };
 		C2263BC429CE22F700E15792 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C2263BC729CE255600E15792 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C8B4BDB229CB4E5F00134881 /* AutoEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +70,7 @@
 		C8B4BDB429CB4E5F00134881 /* AutoEye */ = {
 			isa = PBXGroup;
 			children = (
+				BCB3F1E729E4A40B007ADD76 /* AutoEye.entitlements */,
 				C8B4BDB529CB4E5F00134881 /* AppDelegate.swift */,
 				C8B4BDB729CB4E5F00134881 /* SceneDelegate.swift */,
 				C8B4BDB929CB4E5F00134881 /* ViewController.swift */,
@@ -301,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoEye/AutoEye.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74T3FC85R9;
@@ -329,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AutoEye/AutoEye.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74T3FC85R9;
