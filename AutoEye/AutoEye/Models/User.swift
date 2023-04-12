@@ -27,6 +27,4 @@ struct User: ParseUser {
     
     var licensePlate: String?
 
-    // TODO: Pt 2 - Add custom property for `lastPostedDate`
-
 }
