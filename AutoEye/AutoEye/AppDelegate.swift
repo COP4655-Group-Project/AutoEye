@@ -7,8 +7,7 @@
 
 import UIKit
 import UserNotifications
-//***need to install package here
-//import parseSwift
+import ParseSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
