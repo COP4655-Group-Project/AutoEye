@@ -15,9 +15,10 @@ import UIKit
 class LoginViewController: UIViewController {
 
         //****Need to make login page in storyboard for IBOutlets
+    
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }

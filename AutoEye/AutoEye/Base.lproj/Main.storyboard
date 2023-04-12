@@ -116,8 +116,8 @@
                         <barButtonItem key="backBarButtonItem" title=" " id="BRf-wQ-Cvs"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="passwordField" destination="8f2-Xz-Z2Y" id="L9z-ZI-2XD"/>
-                        <outlet property="usernameField" destination="HZz-mz-Y8y" id="goE-Fv-nVf"/>
+                        <outlet property="passwordField" destination="8f2-Xz-Z2Y" id="N2D-eQ-HOc"/>
+                        <outlet property="usernameField" destination="HZz-mz-Y8y" id="YMr-Oi-0sM"/>
                         <segue destination="7SP-wA-eif" kind="show" id="ajl-Ks-0tt"/>
                     </connections>
                 </viewController>
