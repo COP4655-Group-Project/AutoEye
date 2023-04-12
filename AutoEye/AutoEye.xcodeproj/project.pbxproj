@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C2263BC529CE22F700E15792 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2263BC429CE22F700E15792 /* LoginViewController.swift */; };
 		C2263BC829CE255600E15792 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2263BC729CE255600E15792 /* SignUpViewController.swift */; };
+		C2714AD929E7173B00CAEFAE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2714AD829E7173B00CAEFAE /* User.swift */; };
 		C84225AA29E6833F005CD832 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C84225A929E6833F005CD832 /* ParseSwift */; };
 		C84225AD29E68518005CD832 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AC29E68518005CD832 /* Alamofire */; };
 		C84225B029E68830005CD832 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AF29E68830005CD832 /* AlamofireImage */; };
@@ -24,6 +25,7 @@
 		BCB3F1E729E4A40B007ADD76 /* AutoEye.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutoEye.entitlements; sourceTree = "<group>"; };
 		C2263BC429CE22F700E15792 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C2263BC729CE255600E15792 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C2714AD829E7173B00CAEFAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C8B4BDB229CB4E5F00134881 /* AutoEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B4BDB529CB4E5F00134881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8B4BDB729CB4E5F00134881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		C2714AD729E716FA00CAEFAE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C2714AD829E7173B00CAEFAE /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C8B4BDA929CB4E5F00134881 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 				C8B4BDBE29CB4E6100134881 /* Assets.xcassets */,
 				C8B4BDC029CB4E6100134881 /* LaunchScreen.storyboard */,
 				C8B4BDC329CB4E6100134881 /* Info.plist */,
+				C2714AD729E716FA00CAEFAE /* Models */,
 				C2263BC629CE24DA00E15792 /* Login */,
 			);
 			path = AutoEye;
@@ -173,6 +184,7 @@
 			files = (
 				C2263BC529CE22F700E15792 /* LoginViewController.swift in Sources */,
 				C8B4BDBA29CB4E5F00134881 /* ViewController.swift in Sources */,
+				C2714AD929E7173B00CAEFAE /* User.swift in Sources */,
 				C8B4BDB629CB4E5F00134881 /* AppDelegate.swift in Sources */,
 				C8B4BDB829CB4E5F00134881 /* SceneDelegate.swift in Sources */,
 				C2263BC829CE255600E15792 /* SignUpViewController.swift in Sources */,
