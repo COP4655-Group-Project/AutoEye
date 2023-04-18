@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -390,17 +391,17 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="23" translatesAutoresizingMaskIntoConstraints="NO" id="PMT-p1-tPf">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PMT-p1-tPf">
                                 <rect key="frame" x="61" y="359" width="271" height="134.33333333333337"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQi-zs-GEC" userLabel="Camera View">
-                                        <rect key="frame" x="0.0" y="0.0" width="124" height="134.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="130.66666666666666" height="134.33333333333334"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="WFT-wZ-bjM">
-                                                <rect key="frame" x="16" y="15.999999999999993" width="92" height="102.33333333333331"/>
+                                                <rect key="frame" x="16.000000000000007" y="15.999999999999993" width="98.666666666666686" height="102.33333333333331"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PRz-cn-xkn">
-                                                        <rect key="frame" x="0.0" y="0.0" width="92" height="73"/>
+                                                        <rect key="frame" x="3.3333333333333286" y="0.0" width="92" height="73"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="y9t-x3-TmF">
                                                                 <rect key="frame" x="0.0" y="1" width="92" height="70.666666666666671"/>
@@ -413,7 +414,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eoX-ez-eeM">
-                                                        <rect key="frame" x="16.333333333333332" y="82" width="59.333333333333343" height="20.333333333333329"/>
+                                                        <rect key="frame" x="19.666666666666675" y="82" width="59.333333333333343" height="20.333333333333329"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nm5-K6-4Wu">
                                                                 <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="20.333333333333332"/>
@@ -427,21 +428,25 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstItem="WFT-wZ-bjM" firstAttribute="leading" secondItem="yQi-zs-GEC" secondAttribute="leading" constant="16" id="0uG-sj-OyB"/>
                                             <constraint firstItem="WFT-wZ-bjM" firstAttribute="top" secondItem="yQi-zs-GEC" secondAttribute="top" constant="16" id="99f-js-jHG"/>
                                             <constraint firstAttribute="trailing" secondItem="WFT-wZ-bjM" secondAttribute="trailing" constant="16" id="HYw-0d-qQF"/>
                                             <constraint firstAttribute="bottom" secondItem="WFT-wZ-bjM" secondAttribute="bottom" constant="16" id="Y0M-mx-9SZ"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Sjl-Eg-E2z" appends="YES" id="YhF-qU-ujr"/>
+                                        </connections>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KAB-bo-KdL" userLabel="Keyboard View">
-                                        <rect key="frame" x="147" y="0.0" width="124" height="134.33333333333334"/>
+                                        <rect key="frame" x="140.66666666666663" y="0.0" width="130.33333333333337" height="134.33333333333334"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lWa-p8-zhM">
-                                                <rect key="frame" x="16" y="15.999999999999993" width="92" height="102.33333333333331"/>
+                                                <rect key="frame" x="15.999999999999993" y="15.999999999999993" width="98.333333333333314" height="102.33333333333331"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="URr-Fc-5jp">
-                                                        <rect key="frame" x="0.0" y="0.0" width="92" height="73"/>
+                                                        <rect key="frame" x="3" y="0.0" width="92" height="73"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="keyboard.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XyK-l0-jce">
                                                                 <rect key="frame" x="0.0" y="2.6666666666666643" width="92" height="68"/>
@@ -454,7 +459,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="K9M-ZM-gJV">
-                                                        <rect key="frame" x="9.6666666666666572" y="81" width="72.666666666666671" height="21.333333333333329"/>
+                                                        <rect key="frame" x="12.666666666666686" y="81" width="72.666666666666671" height="21.333333333333329"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keyboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJn-8h-F5r">
                                                                 <rect key="frame" x="0.0" y="0.0" width="72.666666666666671" height="21.333333333333332"/>
@@ -468,12 +473,16 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="labelColor"/>
+                                        <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="lWa-p8-zhM" secondAttribute="trailing" constant="16" id="cZG-cU-wPV"/>
                                             <constraint firstAttribute="bottom" secondItem="lWa-p8-zhM" secondAttribute="bottom" constant="16" id="qZ3-LY-cnZ"/>
                                             <constraint firstItem="lWa-p8-zhM" firstAttribute="top" secondItem="KAB-bo-KdL" secondAttribute="top" constant="16" id="sRg-sW-kdg"/>
                                             <constraint firstItem="lWa-p8-zhM" firstAttribute="leading" secondItem="KAB-bo-KdL" secondAttribute="leading" constant="16" id="xSe-yq-M9B"/>
                                         </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="PIY-bQ-Jvh" appends="YES" id="mcQ-BE-Qke"/>
+                                        </connections>
                                     </view>
                                 </subviews>
                             </stackView>
@@ -490,8 +499,34 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                     <navigationItem key="navigationItem" title="Enter A Report!" id="IPe-Ke-0Sq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pcx-RC-H2W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="PIY-bQ-Jvh" userLabel="Keyboard Tap Gesture Recognizer">
+                    <connections>
+                        <segue destination="t03-Ki-Ekc" kind="show" id="TRP-6s-lKu"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Sjl-Eg-E2z" userLabel="Camera Tap Gesture Recognizer">
+                    <connections>
+                        <segue destination="ojt-YW-RPd" kind="show" id="5kt-b6-Zu6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1777.8625954198474" y="1379.5774647887324"/>
+        </scene>
+        <!--Keyboard View Controller-->
+        <scene sceneID="4nu-MD-5fd">
+            <objects>
+                <viewController id="t03-Ki-Ekc" userLabel="Keyboard View Controller" customClass="DetailViewController" customModule="AutoEye" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4x6-dV-oHI">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="KbT-bw-WMz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NQ8-wC-L7c"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hz4-xT-n7l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2767" y="1738"/>
         </scene>
         <!--Report-->
         <scene sceneID="rjD-0h-fTS">
@@ -639,14 +674,102 @@ If your taillight gets tagged by another user, you'll receive a notification on 
             </objects>
             <point key="canvasLocation" x="994.6564885496183" y="2736.6197183098593"/>
         </scene>
+        <!--Post View Controller-->
+        <scene sceneID="0Mn-Wa-UiY">
+            <objects>
+                <viewController id="ojt-YW-RPd" customClass="PostViewController" customModule="BeRealClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BOL-DL-Akw">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ct0-mX-bYW">
+                                <rect key="frame" x="0.0" y="103" width="393" height="435"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a caption..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6jX-Rk-C8Z">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="34"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
+                                                <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dp8-Wg-3vl">
+                                        <rect key="frame" x="0.0" y="43.666666666666657" width="393" height="390"/>
+                                        <color key="backgroundColor" white="0.33333333329999998" alpha="0.22544446530000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="0.099878172210000005" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="dp8-Wg-3vl" secondAttribute="height" multiplier="1:1" id="CIQ-LS-Bu7"/>
+                                        </constraints>
+                                        <imageReference key="image" image="photo.artframe" catalog="system" symbolScale="default"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hx1-Ar-q9o"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ct0-mX-bYW" firstAttribute="leading" secondItem="hx1-Ar-q9o" secondAttribute="leading" id="4yL-34-gJN"/>
+                            <constraint firstItem="ct0-mX-bYW" firstAttribute="trailing" secondItem="hx1-Ar-q9o" secondAttribute="trailing" id="eng-UR-zKR"/>
+                            <constraint firstItem="ct0-mX-bYW" firstAttribute="top" secondItem="hx1-Ar-q9o" secondAttribute="top" id="hjg-pA-SeM"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="ijR-FG-jK1" appends="YES" id="ITI-1G-aa4"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="MfF-PY-Yh7">
+                        <rightBarButtonItems>
+                            <barButtonItem title="Share" id="Fdo-WL-Wxk">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="onShareTapped:" destination="ojt-YW-RPd" id="4ry-J5-mg6"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="camera" catalog="system" id="bCn-UP-vWv">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="onTakePhotoTapped:" destination="ojt-YW-RPd" id="mLj-uz-BLb"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="photo" catalog="system" id="aST-jn-lh5">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="onPickedImageTapped:" destination="ojt-YW-RPd" id="BSl-Xv-kEB"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="captionTextField" destination="6jX-Rk-C8Z" id="C0K-jW-FdM"/>
+                        <outlet property="previewImageView" destination="dp8-Wg-3vl" id="wAa-9c-kee"/>
+                        <outlet property="shareButton" destination="Fdo-WL-Wxk" id="t2C-Fs-aUl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W1T-AK-KQq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ijR-FG-jK1">
+                    <connections>
+                        <action selector="onViewTapped:" destination="ojt-YW-RPd" id="5xh-gi-s4T"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2767" y="1085"/>
+        </scene>
     </scenes>
     <resources>
         <image name="AutoEye_Wireframe_Digital_Mockups-removebg-preview" width="713" height="350"/>
         <image name="bell.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="camera" catalog="system" width="128" height="93"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="face.smiling.fill" catalog="system" width="128" height="123"/>
         <image name="keyboard.fill" catalog="system" width="128" height="78"/>
         <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="photo" catalog="system" width="128" height="93"/>
+        <image name="photo.artframe" catalog="system" width="128" height="93"/>
         <image name="plus.app.fill" catalog="system" width="128" height="114"/>
         <image name="questionmark.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="labelColor">
