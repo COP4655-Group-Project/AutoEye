@@ -677,7 +677,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
         <!--Post View Controller-->
         <scene sceneID="0Mn-Wa-UiY">
             <objects>
-                <viewController id="ojt-YW-RPd" customClass="PostViewController" customModule="BeRealClone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ojt-YW-RPd" customClass="PostViewController" customModule="AutoEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BOL-DL-Akw">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
