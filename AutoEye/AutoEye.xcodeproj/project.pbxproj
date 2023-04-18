@@ -15,6 +15,7 @@
 		C84225AD29E68518005CD832 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AC29E68518005CD832 /* Alamofire */; };
 		C84225B029E68830005CD832 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AF29E68830005CD832 /* AlamofireImage */; };
 		C89BC45529EE6CEE00F5C3D4 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC45429EE6CEE00F5C3D4 /* KeyboardViewController.swift */; };
+		C89BC45829EE71D100F5C3D4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC45729EE71D100F5C3D4 /* ProfileViewController.swift */; };
 		C8B4BDB629CB4E5F00134881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B4BDB529CB4E5F00134881 /* AppDelegate.swift */; };
 		C8B4BDB829CB4E5F00134881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B4BDB729CB4E5F00134881 /* SceneDelegate.swift */; };
 		C8B4BDBA29CB4E5F00134881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B4BDB929CB4E5F00134881 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 		C2714AD829E7173B00CAEFAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C2714ADB29E71A3100CAEFAE /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		C89BC45429EE6CEE00F5C3D4 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		C89BC45729EE71D100F5C3D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C8B4BDB229CB4E5F00134881 /* AutoEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B4BDB529CB4E5F00134881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8B4BDB729CB4E5F00134881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,14 @@
 			path = Report;
 			sourceTree = "<group>";
 		};
+		C89BC45629EE719300F5C3D4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C89BC45729EE71D100F5C3D4 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		C8B4BDA929CB4E5F00134881 = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 				C2714AD729E716FA00CAEFAE /* Models */,
 				C2263BC629CE24DA00E15792 /* Login */,
 				C89BC45329EE6C9000F5C3D4 /* Report */,
+				C89BC45629EE719300F5C3D4 /* Profile */,
 			);
 			path = AutoEye;
 			sourceTree = "<group>";
@@ -210,6 +221,7 @@
 				C8B4BDB629CB4E5F00134881 /* AppDelegate.swift in Sources */,
 				C89BC45529EE6CEE00F5C3D4 /* KeyboardViewController.swift in Sources */,
 				C8B4BDB829CB4E5F00134881 /* SceneDelegate.swift in Sources */,
+				C89BC45829EE71D100F5C3D4 /* ProfileViewController.swift in Sources */,
 				C2263BC829CE255600E15792 /* SignUpViewController.swift in Sources */,
 				C2714ADC29E71A3100CAEFAE /* ViewControllerExtensions.swift in Sources */,
 			);
