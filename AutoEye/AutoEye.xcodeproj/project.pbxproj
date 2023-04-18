@@ -14,7 +14,7 @@
 		C84225AA29E6833F005CD832 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C84225A929E6833F005CD832 /* ParseSwift */; };
 		C84225AD29E68518005CD832 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AC29E68518005CD832 /* Alamofire */; };
 		C84225B029E68830005CD832 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AF29E68830005CD832 /* AlamofireImage */; };
-		C89BC45029EE4B9100F5C3D4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC44F29EE4B9100F5C3D4 /* DetailViewController.swift */; };
+		C89BC45529EE6CEE00F5C3D4 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89BC45429EE6CEE00F5C3D4 /* KeyboardViewController.swift */; };
 		C8B4BDB629CB4E5F00134881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B4BDB529CB4E5F00134881 /* AppDelegate.swift */; };
 		C8B4BDB829CB4E5F00134881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B4BDB729CB4E5F00134881 /* SceneDelegate.swift */; };
 		C8B4BDBA29CB4E5F00134881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B4BDB929CB4E5F00134881 /* ViewController.swift */; };
@@ -29,7 +29,7 @@
 		C2263BC729CE255600E15792 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C2714AD829E7173B00CAEFAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C2714ADB29E71A3100CAEFAE /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
-		C89BC44F29EE4B9100F5C3D4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C89BC45429EE6CEE00F5C3D4 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		C8B4BDB229CB4E5F00134881 /* AutoEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B4BDB529CB4E5F00134881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8B4BDB729CB4E5F00134881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +79,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		C89BC45329EE6C9000F5C3D4 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				C89BC45429EE6CEE00F5C3D4 /* KeyboardViewController.swift */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
 		C8B4BDA929CB4E5F00134881 = {
 			isa = PBXGroup;
 			children = (
@@ -103,13 +111,13 @@
 				C8B4BDB729CB4E5F00134881 /* SceneDelegate.swift */,
 				C8B4BDB929CB4E5F00134881 /* ViewController.swift */,
 				C8B4BDBB29CB4E5F00134881 /* Main.storyboard */,
-				C89BC44F29EE4B9100F5C3D4 /* DetailViewController.swift */,
 				C8B4BDBE29CB4E6100134881 /* Assets.xcassets */,
 				C8B4BDC029CB4E6100134881 /* LaunchScreen.storyboard */,
 				C2714ADA29E71A0C00CAEFAE /* Extensions */,
 				C8B4BDC329CB4E6100134881 /* Info.plist */,
 				C2714AD729E716FA00CAEFAE /* Models */,
 				C2263BC629CE24DA00E15792 /* Login */,
+				C89BC45329EE6C9000F5C3D4 /* Report */,
 			);
 			path = AutoEye;
 			sourceTree = "<group>";
@@ -200,10 +208,10 @@
 				C8B4BDBA29CB4E5F00134881 /* ViewController.swift in Sources */,
 				C2714AD929E7173B00CAEFAE /* User.swift in Sources */,
 				C8B4BDB629CB4E5F00134881 /* AppDelegate.swift in Sources */,
+				C89BC45529EE6CEE00F5C3D4 /* KeyboardViewController.swift in Sources */,
 				C8B4BDB829CB4E5F00134881 /* SceneDelegate.swift in Sources */,
 				C2263BC829CE255600E15792 /* SignUpViewController.swift in Sources */,
 				C2714ADC29E71A3100CAEFAE /* ViewControllerExtensions.swift in Sources */,
-				C89BC45029EE4B9100F5C3D4 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
