@@ -87,11 +87,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B2i-2r-cSw">
-<<<<<<< Updated upstream
                                 <rect key="frame" x="72" y="502.00000000000011" width="249.66666666666663" height="34.333333333333314"/>
-=======
-                                <rect key="frame" x="72" y="502.00000000000006" width="249.66666666666663" height="34.333333333333314"/>
->>>>>>> Stashed changes
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMQ-hD-wPU">
                                         <rect key="frame" x="0.0" y="8" width="161" height="18"/>
@@ -104,11 +100,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Sign Up."/>
                                         <connections>
-<<<<<<< Updated upstream
                                             <segue destination="7SP-wA-eif" kind="show" id="GGk-cM-eQY"/>
-=======
-                                            <segue destination="7SP-wA-eif" kind="show" id="Qmj-u9-cxV"/>
->>>>>>> Stashed changes
                                         </connections>
                                     </button>
                                 </subviews>
@@ -242,17 +234,10 @@
             </objects>
             <point key="canvasLocation" x="1018" y="686"/>
         </scene>
-<<<<<<< Updated upstream
         <!--FAQ VC-->
         <scene sceneID="C8K-NX-UXw">
             <objects>
                 <viewController title="FAQ VC" id="obo-jD-bqM" sceneMemberID="viewController">
-=======
-        <!--FAQ View-->
-        <scene sceneID="C8K-NX-UXw">
-            <objects>
-                <viewController title="FAQ View" id="obo-jD-bqM" sceneMemberID="viewController">
->>>>>>> Stashed changes
                     <view key="view" contentMode="scaleToFill" id="zAQ-gn-b6P">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
