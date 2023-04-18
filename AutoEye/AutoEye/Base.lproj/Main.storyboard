@@ -86,7 +86,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B2i-2r-cSw">
-                                <rect key="frame" x="72" y="502.00000000000006" width="249.66666666666663" height="34.333333333333314"/>
+                                <rect key="frame" x="72" y="502.00000000000011" width="249.66666666666663" height="34.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMQ-hD-wPU">
                                         <rect key="frame" x="0.0" y="8" width="161" height="18"/>
@@ -231,21 +231,117 @@
             </objects>
             <point key="canvasLocation" x="1018" y="686"/>
         </scene>
-        <!--View Controller-->
+        <!--FAQ VC-->
         <scene sceneID="C8K-NX-UXw">
             <objects>
-                <viewController id="obo-jD-bqM" sceneMemberID="viewController">
+                <viewController title="FAQ VC" id="obo-jD-bqM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zAQ-gn-b6P">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="mJO-l0-0zy">
+                                <rect key="frame" x="5" y="103" width="383" height="665"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5V3-jU-1ce">
+                                        <rect key="frame" x="0.0" y="0.0" width="383" height="90"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AutoEye" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RzQ-vG-tbM">
+                                                <rect key="frame" x="0.0" y="0.0" width="383" height="90"/>
+                                                <color key="backgroundColor" systemColor="labelColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="90" id="rw9-io-OEl"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ysf-Ol-IW7">
+                                        <rect key="frame" x="0.0" y="121.00000000000001" width="383" height="27.666666666666671"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="A Guide to AutoEye" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rrg-5t-l1u">
+                                                <rect key="frame" x="0.0" y="0.0" width="383" height="27.666666666666668"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="26"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EXH-Br-0EL">
+                                        <rect key="frame" x="0.0" y="179.66666666666669" width="383" height="122.66666666666669"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="WHAT IS AUTOEYE?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wm5-Pa-7Gd">
+                                                <rect key="frame" x="0.0" y="0.0" width="383" height="27"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZg-XQ-w6O">
+                                                <rect key="frame" x="0.0" y="27.000000000000007" width="383" height="95.666666666666686"/>
+                                                <string key="text">AutoEye provides a quick and easy way for drivers to help each other stay safe on the road. With just a few clicks, users can notify other drivers that their taillight is out by uploading a picture of the vehicle's license plate.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BKZ-xR-FMO">
+                                        <rect key="frame" x="0.0" y="333.33333333333331" width="383" height="84.333333333333314"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MISSION" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YS7-5c-w5d">
+                                                <rect key="frame" x="0.0" y="0.0" width="383" height="27"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Our app is designed to help drivers stay safe on the road by promoting community awareness and responsibility." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecG-aW-KZc">
+                                                <rect key="frame" x="0.0" y="27.000000000000004" width="383" height="57.333333333333343"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="ecG-aW-KZc" firstAttribute="top" secondItem="YS7-5c-w5d" secondAttribute="bottom" id="dzv-J7-qVf"/>
+                                            <constraint firstItem="ecG-aW-KZc" firstAttribute="top" secondItem="YS7-5c-w5d" secondAttribute="bottom" id="fak-TC-4Ca"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="A8V-9P-N9a">
+                                        <rect key="frame" x="0.0" y="448.66666666666657" width="383" height="216.33333333333331"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="HOW TO USE AUTOEYE?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaX-K2-8GA">
+                                                <rect key="frame" x="0.0" y="0.0" width="383" height="25.333333333333332"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxI-zK-op4">
+                                                <rect key="frame" x="0.0" y="25.333333333333371" width="383" height="191"/>
+                                                <string key="text">To use the app, users can create a free account by registering and logging in. Once logged in, they can browse notifications from other users and earn points for submitting helpful notifications.
+If your taillight gets tagged by another user, you'll receive a notification on your device with a picture of your vehicle's license plate, letting you know that your taillight is out. This way, you can quickly take action and fix the issue before it becomes a safety hazard.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="5fl-a3-p78"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="mJO-l0-0zy" firstAttribute="top" secondItem="5fl-a3-p78" secondAttribute="top" id="2pq-Dw-UgL"/>
+                            <constraint firstItem="mJO-l0-0zy" firstAttribute="leading" secondItem="5fl-a3-p78" secondAttribute="leading" constant="5" id="MFS-aN-5dV"/>
+                            <constraint firstAttribute="trailing" secondItem="mJO-l0-0zy" secondAttribute="trailing" constant="5" id="oBb-oe-sG5"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Fk7-YU-UzM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Woj-W1-6sr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1778" y="686"/>
+            <point key="canvasLocation" x="1777.8625954198474" y="685.91549295774655"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="qxk-ns-Ass">
@@ -449,11 +545,14 @@
     </scenes>
     <resources>
         <image name="AutoEye_Wireframe_Digital_Mockups-removebg-preview" width="713" height="350"/>
-        <image name="bell.circle.fill" catalog="system" width="128" height="123"/>
-        <image name="face.smiling.fill" catalog="system" width="128" height="123"/>
-        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
-        <image name="plus.app.fill" catalog="system" width="128" height="114"/>
-        <image name="questionmark.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="bell.circle.fill" catalog="system" width="32" height="32"/>
+        <image name="face.smiling.fill" catalog="system" width="32" height="32"/>
+        <image name="person.circle.fill" catalog="system" width="32" height="32"/>
+        <image name="plus.app.fill" catalog="system" width="32" height="32"/>
+        <image name="questionmark.circle.fill" catalog="system" width="32" height="32"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="opaqueSeparatorColor">
             <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
