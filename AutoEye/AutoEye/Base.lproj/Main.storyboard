@@ -573,7 +573,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="notifyCarDetails:" destination="t03-Ki-Ekc" eventType="touchUpInside" id="ZEZ-Nq-XYp"/>
-                                    <segue destination="Csb-gd-kv4" kind="show" id="p4E-ma-5ly"/>
+                                    <segue destination="4Wt-di-Qj8" kind="show" id="Wrm-Wf-drf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Car Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvk-0o-WeP" userLabel="Car Color Label">
@@ -681,7 +681,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSD-U2-QHj">
-                                <rect key="frame" x="197" y="167" width="145" height="72"/>
+                                <rect key="frame" x="197" y="103" width="145" height="72"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Richard
 Whittaker</string>
@@ -690,7 +690,7 @@ Whittaker</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEv-oa-DbK">
-                                <rect key="frame" x="197" y="219" width="155.33333333333334" height="120"/>
+                                <rect key="frame" x="197" y="144" width="155.33333333333334" height="120"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">2024
 White Maserati</string>
@@ -715,6 +715,15 @@ White Maserati</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qYo-Y2-8V8">
+                                <rect key="frame" x="197" y="240" width="112" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">License Plate:
+PRGRMR</string>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -834,7 +843,7 @@ White Maserati</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="qOG-s4-BEA"/>
+        <segue reference="Wrm-Wf-drf"/>
         <segue reference="W9Z-Br-0io"/>
     </inferredMetricsTieBreakers>
     <resources>
