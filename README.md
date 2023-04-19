@@ -8,7 +8,7 @@
 
 
 ## Submission Info
-# Project 10 - *AutoEyee*
+# Project 10 - *AutoEye*
 
 Submitted by: **AutoEye**
 
