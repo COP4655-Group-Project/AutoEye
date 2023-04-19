@@ -10,21 +10,20 @@ import PhotosUI
 import ParseSwift
 
 class PostViewController: UIViewController {
-    // MARK: Outlets
+    
     
     @IBOutlet weak var shareButton: UIBarButtonItem!
-    
-    
     @IBOutlet weak var captionTextField: UITextField!
     @IBOutlet weak var previewImageView: UIImageView!
-
+    
     private var pickedImage: UIImage?
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
-    @IBAction func onPickedImageTapped(_ sender: UIBarButtonItem) {
+    
+    @IBAction func onPickedImageTapped(_ sender: Any) {
 
         // Create a configuration object
         var config = PHPickerConfiguration()
@@ -47,7 +46,7 @@ class PostViewController: UIViewController {
         // Present the picker
         present(picker, animated: true)
     }
-
+    
     @IBAction func onShareTapped(_ sender: Any) {
         // Dismiss Keyboard
         view.endEditing(true)
@@ -82,7 +81,7 @@ class PostViewController: UIViewController {
                     print("✅ Post Saved! \(post)")
 
                     // Get the current user
-                    if var currentUser = User.current {
+                    if let currentUser = User.current {
                        
 
                         // Save updates to the user (async)
