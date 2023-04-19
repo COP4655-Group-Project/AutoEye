@@ -82,7 +82,6 @@ class PostViewController: UIViewController {
 
                     // Get the current user
                     if let currentUser = User.current {
-                       
 
                         // Save updates to the user (async)
                         currentUser.save { [weak self] result in
