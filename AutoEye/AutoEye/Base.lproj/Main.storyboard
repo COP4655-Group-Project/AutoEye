@@ -87,7 +87,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B2i-2r-cSw">
-                                <rect key="frame" x="72" y="502.00000000000011" width="249.66666666666663" height="34.333333333333314"/>
+                                <rect key="frame" x="72" y="502.00000000000011" width="249.66666666666663" height="34.333333333333371"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMQ-hD-wPU">
                                         <rect key="frame" x="0.0" y="8.3333333333333144" width="161" height="18"/>
@@ -460,7 +460,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PMT-p1-tPf">
                                 <rect key="frame" x="61" y="312" width="271" height="181.33333333333337"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQi-zs-GEC" userLabel="Camera View">
+                                    <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQi-zs-GEC" userLabel="Camera View">
                                         <rect key="frame" x="0.0" y="0.0" width="130.66666666666666" height="181.33333333333334"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="WFT-wZ-bjM">
@@ -872,33 +872,33 @@ PRGRMR</string>
                             <barButtonItem title="Share" id="Fdo-WL-Wxk">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="onShareTapped:" destination="ojt-YW-RPd" id="4ry-J5-mg6"/>
+                                    <action selector="onShareTapped:" destination="ojt-YW-RPd" id="6oa-lc-5lB"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem image="camera" catalog="system" id="bCn-UP-vWv">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="onTakePhotoTapped:" destination="ojt-YW-RPd" id="mLj-uz-BLb"/>
+                                    <action selector="onTakePhotoTapped:" destination="ojt-YW-RPd" id="0af-yi-lAe"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem image="photo" catalog="system" id="aST-jn-lh5">
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="onPickedImageTapped:" destination="ojt-YW-RPd" id="BSl-Xv-kEB"/>
+                                    <action selector="onPickedImageTapped:" destination="ojt-YW-RPd" id="iHb-s4-5Bc"/>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
-                        <outlet property="captionTextField" destination="6jX-Rk-C8Z" id="C0K-jW-FdM"/>
-                        <outlet property="previewImageView" destination="dp8-Wg-3vl" id="wAa-9c-kee"/>
+                        <outlet property="captionTextField" destination="6jX-Rk-C8Z" id="uDX-aN-N5W"/>
+                        <outlet property="previewImageView" destination="dp8-Wg-3vl" id="s7a-n2-ofY"/>
                         <outlet property="shareButton" destination="Fdo-WL-Wxk" id="t2C-Fs-aUl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W1T-AK-KQq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="ijR-FG-jK1">
                     <connections>
-                        <action selector="onViewTapped:" destination="ojt-YW-RPd" id="5xh-gi-s4T"/>
+                        <action selector="onViewTapped:" destination="ojt-YW-RPd" id="zX4-LZ-W2N"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
