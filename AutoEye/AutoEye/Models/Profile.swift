@@ -17,7 +17,8 @@ struct Post: ParseObject {
     var originalData: Data?
 
     // Your own custom properties.
-    var caption: String?
-    var user: User?
-    var imageFile: ParseFile?
+    var nameProfile: String?
+    var carMakeProfile: User?
+    var imageFileProfile: ParseFile?
+    var licensePlateProfile: String?
 }

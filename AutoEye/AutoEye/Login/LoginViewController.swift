@@ -26,8 +26,9 @@ class LoginViewController: UIViewController {
         guard let username = usernameField.text,
               let password = passwordField.text,
               !username.isEmpty,
-              !password.isEmpty else {
-            
+              !password.isEmpty
+        else
+        {
             showMissingFieldsAlert()
             return
         }
@@ -36,6 +37,14 @@ class LoginViewController: UIViewController {
             
             switch result {
             case .success(let user):
+                self?.performSegue(withIdentifier: "LoginToMain", sender: self)
+                
+                // Get TabController to show
+                /*let mainStoryBoard = UIStoryboard(name: "Main", bundle: nil)
+                let MainTabBarController = mainStoryBoard.instantiateViewController(withIdentifier: "TabBarController") as! UITabBarController)
+                self.present(MainTabBarController, animated: true, completion: nil)*/
+                
+                
                 print("✅ Successfully logged in as user: \(user)")
                 // Post a notification that the user has successfully logged in.
                 NotificationCenter.default.post(name: Notification.Name("login"), object: nil)
@@ -46,8 +55,6 @@ class LoginViewController: UIViewController {
 
             }
         }
-        
-        self.performSegue(withIdentifier: "LoginToMain", sender: self)
     }
 
     private func showMissingFieldsAlert() {
