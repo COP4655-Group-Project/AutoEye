@@ -26,5 +26,9 @@ struct User: ParseUser {
     // Your custom properties.
     
     var licensePlate: String?
+    var vehicleInfo: String?
+    var points: Int?
+    var reportHistory: [Report]
+    
 
 }

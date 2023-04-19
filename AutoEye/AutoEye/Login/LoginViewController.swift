@@ -47,6 +47,7 @@ class LoginViewController: UIViewController {
 
             }
         }
+        self.performSegue(withIdentifier: "LoginToMain", sender: self)
     }
 
     private func showMissingFieldsAlert() {

@@ -11,6 +11,7 @@
 		C2263BC829CE255600E15792 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2263BC729CE255600E15792 /* SignUpViewController.swift */; };
 		C2714AD929E7173B00CAEFAE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2714AD829E7173B00CAEFAE /* User.swift */; };
 		C2714ADC29E71A3100CAEFAE /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2714ADB29E71A3100CAEFAE /* ViewControllerExtensions.swift */; };
+		C2E69CE329EF6EC00067CA08 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E69CE229EF6EC00067CA08 /* Report.swift */; };
 		C84225AA29E6833F005CD832 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C84225A929E6833F005CD832 /* ParseSwift */; };
 		C84225AD29E68518005CD832 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AC29E68518005CD832 /* Alamofire */; };
 		C84225B029E68830005CD832 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AF29E68830005CD832 /* AlamofireImage */; };
@@ -30,6 +31,7 @@
 		C2263BC729CE255600E15792 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C2714AD829E7173B00CAEFAE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C2714ADB29E71A3100CAEFAE /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		C2E69CE229EF6EC00067CA08 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
 		C89BC45429EE6CEE00F5C3D4 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		C89BC45729EE71D100F5C3D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C8B4BDB229CB4E5F00134881 /* AutoEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				C2714AD829E7173B00CAEFAE /* User.swift */,
+				C2E69CE229EF6EC00067CA08 /* Report.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2263BC529CE22F700E15792 /* LoginViewController.swift in Sources */,
+				C2E69CE329EF6EC00067CA08 /* Report.swift in Sources */,
 				C8B4BDBA29CB4E5F00134881 /* ViewController.swift in Sources */,
 				C2714AD929E7173B00CAEFAE /* User.swift in Sources */,
 				C8B4BDB629CB4E5F00134881 /* AppDelegate.swift in Sources */,
