@@ -13,7 +13,6 @@ import ParseSwift
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         ParseSwift.initialize(applicationId: "FAJRXteEnYzXSW3j1JSjetMah2nwdaBzlweZVV5e",

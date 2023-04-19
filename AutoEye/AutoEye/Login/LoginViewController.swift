@@ -37,7 +37,6 @@ class LoginViewController: UIViewController {
             switch result {
             case .success(let user):
                 print("✅ Successfully logged in as user: \(user)")
-                
                 // Post a notification that the user has successfully logged in.
                 NotificationCenter.default.post(name: Notification.Name("login"), object: nil)
                 
@@ -47,11 +46,12 @@ class LoginViewController: UIViewController {
 
             }
         }
+        
         self.performSegue(withIdentifier: "LoginToMain", sender: self)
     }
 
     private func showMissingFieldsAlert() {
-        let alertController = UIAlertController(title: "Opps...", message: "We need all fields filled out in order to log you in.", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Oops...", message: "We need all fields filled out in order to log you in.", preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default)
         alertController.addAction(action)
         present(alertController, animated: true)

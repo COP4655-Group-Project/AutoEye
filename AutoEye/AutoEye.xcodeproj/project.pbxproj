@@ -93,28 +93,14 @@
 			path = Post;
 			sourceTree = "<group>";
 		};
-		C840982F29EFE040007576CD /* FAQ */ = {
+		C840982F29EFE040007576CD /* Page View Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				C840983029EFE073007576CD /* FAQViewController.swift */,
-			);
-			path = FAQ;
-			sourceTree = "<group>";
-		};
-		C89BC45329EE6C9000F5C3D4 /* Report */ = {
-			isa = PBXGroup;
-			children = (
 				C89BC45429EE6CEE00F5C3D4 /* KeyboardViewController.swift */,
-			);
-			path = Report;
-			sourceTree = "<group>";
-		};
-		C89BC45629EE719300F5C3D4 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
 				C89BC45729EE71D100F5C3D4 /* ProfileViewController.swift */,
 			);
-			path = Profile;
+			path = "Page View Controllers";
 			sourceTree = "<group>";
 		};
 		C8B4BDA929CB4E5F00134881 = {
@@ -145,12 +131,10 @@
 				C8B4BDC029CB4E6100134881 /* LaunchScreen.storyboard */,
 				C2714ADA29E71A0C00CAEFAE /* Extensions */,
 				C8B4BDC329CB4E6100134881 /* Info.plist */,
-				C840982F29EFE040007576CD /* FAQ */,
-				C2E69CE429EF98690067CA08 /* Post */,
 				C2714AD729E716FA00CAEFAE /* Models */,
 				C2263BC629CE24DA00E15792 /* Login */,
-				C89BC45329EE6C9000F5C3D4 /* Report */,
-				C89BC45629EE719300F5C3D4 /* Profile */,
+				C2E69CE429EF98690067CA08 /* Post */,
+				C840982F29EFE040007576CD /* Page View Controllers */,
 			);
 			path = AutoEye;
 			sourceTree = "<group>";
