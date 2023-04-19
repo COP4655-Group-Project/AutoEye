@@ -32,11 +32,11 @@
             <objects>
                 <viewController id="KIx-ww-eye" customClass="LoginViewController" customModule="AutoEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z8g-cf-Eoc">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="gZ5-aN-doD">
-                                <rect key="frame" x="24" y="140.33333333333337" width="345" height="316"/>
+                                <rect key="frame" x="24" y="116" width="345" height="316"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="B8N-cC-Cb4">
                                         <rect key="frame" x="0.0" y="0.0" width="345" height="220"/>
@@ -50,12 +50,12 @@
                                                 </constraints>
                                             </imageView>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HZz-mz-Y8y">
-                                                <rect key="frame" x="0.0" y="139.99999999999997" width="345" height="34"/>
+                                                <rect key="frame" x="0.0" y="140" width="345" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8f2-Xz-Z2Y">
-                                                <rect key="frame" x="0.0" y="185.99999999999997" width="345" height="34"/>
+                                                <rect key="frame" x="0.0" y="186" width="345" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
@@ -87,10 +87,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B2i-2r-cSw">
-                                <rect key="frame" x="72" y="502.00000000000011" width="249.66666666666663" height="34.333333333333371"/>
+                                <rect key="frame" x="72" y="502.00000000000006" width="249.66666666666663" height="34.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Don't have an account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMQ-hD-wPU">
-                                        <rect key="frame" x="0.0" y="8" width="161" height="18"/>
+                                        <rect key="frame" x="0.0" y="8.3333333333333144" width="161" height="18"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -134,7 +134,7 @@
             <objects>
                 <viewController id="7SP-wA-eif" customClass="SignUpViewController" customModule="AutoEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q73-HJ-W9y">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="tMi-ra-6iu">
@@ -150,24 +150,24 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CQ2-AF-ltr">
-                                                <rect key="frame" x="0.0" y="40.666666666666657" width="345" height="34"/>
+                                                <rect key="frame" x="0.0" y="40.666666666666686" width="345" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97h-eh-ixD">
-                                                <rect key="frame" x="0.0" y="86.666666666666657" width="345" height="34"/>
+                                                <rect key="frame" x="0.0" y="86.666666666666686" width="345" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bug-rZ-2wB">
-                                                <rect key="frame" x="0.0" y="132.66666666666669" width="345" height="34"/>
+                                                <rect key="frame" x="0.0" y="132.66666666666666" width="345" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="efN-u9-Vc9">
-                                        <rect key="frame" x="0.0" y="214.66666666666669" width="345" height="48"/>
+                                        <rect key="frame" x="0.0" y="214.66666666666666" width="345" height="47.999999999999972"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKc-SN-pcg">
                                                 <rect key="frame" x="0.0" y="0.0" width="345" height="48"/>
@@ -185,6 +185,7 @@
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="onSignUpTapped:" destination="7SP-wA-eif" eventType="touchUpInside" id="hQ3-vm-K1v"/>
+                                                    <segue destination="KIx-ww-eye" kind="show" id="W9Z-Br-0io"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -218,7 +219,7 @@
                     <tabBarItem key="tabBarItem" title="FAQ" image="questionmark.circle.fill" catalog="system" id="Kwp-Yc-j6b" userLabel="FAQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="p64-0E-fJn">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <textAttributes key="titleTextAttributes">
@@ -240,11 +241,11 @@
             <objects>
                 <viewController title="FAQ VC" id="obo-jD-bqM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zAQ-gn-b6P">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="mJO-l0-0zy">
-                                <rect key="frame" x="5" y="103" width="383" height="665"/>
+                                <rect key="frame" x="5" y="56" width="383" height="665"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="5V3-jU-1ce">
                                         <rect key="frame" x="0.0" y="0.0" width="383" height="90"/>
@@ -273,7 +274,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EXH-Br-0EL">
-                                        <rect key="frame" x="0.0" y="179.66666666666669" width="383" height="122.66666666666669"/>
+                                        <rect key="frame" x="0.0" y="179.66666666666666" width="383" height="122.66666666666666"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="WHAT IS AUTOEYE?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wm5-Pa-7Gd">
                                                 <rect key="frame" x="0.0" y="0.0" width="383" height="27"/>
@@ -282,7 +283,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZg-XQ-w6O">
-                                                <rect key="frame" x="0.0" y="27.000000000000007" width="383" height="95.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="27.000000000000036" width="383" height="95.666666666666686"/>
                                                 <string key="text">AutoEye provides a quick and easy way for drivers to help each other stay safe on the road. With just a few clicks, users can notify other drivers that their taillight is out by uploading a picture of the vehicle's license plate.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <nil key="textColor"/>
@@ -312,7 +313,7 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="A8V-9P-N9a">
-                                        <rect key="frame" x="0.0" y="448.66666666666657" width="383" height="216.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="448.66666666666669" width="383" height="216.33333333333331"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="HOW TO USE AUTOEYE?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaX-K2-8GA">
                                                 <rect key="frame" x="0.0" y="0.0" width="383" height="25.333333333333332"/>
@@ -321,7 +322,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxI-zK-op4">
-                                                <rect key="frame" x="0.0" y="25.333333333333371" width="383" height="191"/>
+                                                <rect key="frame" x="0.0" y="25.333333333333314" width="383" height="191"/>
                                                 <string key="text">To use the app, users can create a free account by registering and logging in. Once logged in, they can browse notifications from other users and earn points for submitting helpful notifications.
 If your taillight gets tagged by another user, you'll receive a notification on your device with a picture of your vehicle's license plate, letting you know that your taillight is out. This way, you can quickly take action and fix the issue before it becomes a safety hazard.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -374,12 +375,12 @@ If your taillight gets tagged by another user, you'll receive a notification on 
             <objects>
                 <viewController title="Notifications View" id="Csb-gd-kv4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gna-HJ-q5h">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="AYk-W1-99z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="GHI-db-Rkx"/>
+                    <navigationItem key="navigationItem" title="Notifications" id="GHI-db-Rkx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hRe-Pd-ZFv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -390,17 +391,17 @@ If your taillight gets tagged by another user, you'll receive a notification on 
             <objects>
                 <viewController title="Report View" id="zJF-OQ-d1e" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rFl-1b-kFV">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="PMT-p1-tPf">
-                                <rect key="frame" x="61" y="359" width="271" height="134.33333333333337"/>
+                                <rect key="frame" x="61" y="312" width="271" height="181.33333333333337"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQi-zs-GEC" userLabel="Camera View">
-                                        <rect key="frame" x="0.0" y="0.0" width="130.66666666666666" height="134.33333333333334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="130.66666666666666" height="181.33333333333334"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="WFT-wZ-bjM">
-                                                <rect key="frame" x="16.000000000000007" y="15.999999999999993" width="98.666666666666686" height="102.33333333333331"/>
+                                                <rect key="frame" x="16.000000000000007" y="16" width="98.666666666666686" height="149.33333333333334"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="PRz-cn-xkn">
                                                         <rect key="frame" x="3.3333333333333286" y="0.0" width="92" height="73"/>
@@ -416,10 +417,10 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eoX-ez-eeM">
-                                                        <rect key="frame" x="19.666666666666675" y="82" width="59.333333333333343" height="20.333333333333329"/>
+                                                        <rect key="frame" x="19.666666666666675" y="82" width="59.333333333333343" height="67.333333333333314"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nm5-K6-4Wu">
-                                                                <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="20.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="67.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -442,10 +443,10 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                         </connections>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KAB-bo-KdL" userLabel="Keyboard View">
-                                        <rect key="frame" x="140.66666666666663" y="0.0" width="130.33333333333337" height="134.33333333333334"/>
+                                        <rect key="frame" x="140.66666666666663" y="0.0" width="130.33333333333337" height="181.33333333333334"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="lWa-p8-zhM">
-                                                <rect key="frame" x="15.999999999999993" y="15.999999999999993" width="98.333333333333314" height="102.33333333333331"/>
+                                                <rect key="frame" x="15.999999999999993" y="16" width="98.333333333333314" height="149.33333333333334"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="URr-Fc-5jp">
                                                         <rect key="frame" x="3" y="0.0" width="92" height="73"/>
@@ -461,10 +462,10 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="K9M-ZM-gJV">
-                                                        <rect key="frame" x="12.666666666666686" y="81" width="72.666666666666671" height="21.333333333333329"/>
+                                                        <rect key="frame" x="12.666666666666686" y="81" width="72.666666666666671" height="68.333333333333314"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keyboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uJn-8h-F5r">
-                                                                <rect key="frame" x="0.0" y="0.0" width="72.666666666666671" height="21.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="72.666666666666671" height="68.333333333333329"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -519,7 +520,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
             <objects>
                 <viewController id="t03-Ki-Ekc" userLabel="Keyboard View Controller" customClass="KeyboardViewController" customModule="AutoEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4x6-dV-oHI">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AutoEye_Wireframe_Digital_Mockups-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="Vgz-GT-YD0">
@@ -572,6 +573,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="notifyCarDetails:" destination="t03-Ki-Ekc" eventType="touchUpInside" id="ZEZ-Nq-XYp"/>
+                                    <segue destination="Csb-gd-kv4" kind="show" id="p4E-ma-5ly"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Car Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvk-0o-WeP" userLabel="Car Color Label">
@@ -584,7 +586,6 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="J5P-SN-WbX">
                                 <rect key="frame" x="185" y="381" width="172" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -611,7 +612,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                     <tabBarItem key="tabBarItem" title="Report" image="plus.app.fill" catalog="system" id="kxj-IE-P2Y"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dtC-7A-chk">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -630,7 +631,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                     <tabBarItem key="tabBarItem" title="Notifications" image="bell.circle.fill" catalog="system" id="8qe-Ps-rqW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8S9-8h-4GH">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -647,85 +648,81 @@ If your taillight gets tagged by another user, you'll receive a notification on 
             <objects>
                 <viewController title="Profile View" id="4Wt-di-Qj8" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ceo-XC-maQ">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="lEU-q8-aiD">
-                                <rect key="frame" x="180" y="167" width="117" height="120"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSD-U2-QHj">
-                                        <rect key="frame" x="0.0" y="0.0" width="79" height="34.666666666666664"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vehicle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEv-oa-DbK">
-                                        <rect key="frame" x="0.0" y="48.666666666666657" width="75.333333333333329" height="28.666666666666671"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obb-C1-axi">
-                                        <rect key="frame" x="0.0" y="91.333333333333314" width="117" height="28.666666666666671"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="107" translatesAutoresizingMaskIntoConstraints="NO" id="1EU-z5-SgJ">
-                                <rect key="frame" x="16" y="414" width="315.33333333333331" height="34.666666666666686"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Points / Stars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUW-tu-zen">
-                                        <rect key="frame" x="0.0" y="0.0" width="178.33333333333334" height="34.666666666666664"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxI-Nl-TOA">
-                                        <rect key="frame" x="285.33333333333331" y="0.0" width="30" height="34.666666666666664"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="AqS-Iv-tZg">
-                                <rect key="frame" x="16" y="514" width="361" height="254.66666666666663"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsv-wn-VH8">
-                                        <rect key="frame" x="0.0" y="0.0" width="197.33333333333334" height="34.666666666666664"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="YzK-hW-TUM">
-                                        <rect key="frame" x="0.0" y="42.666666666666629" width="361" height="212"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </tableView>
-                                </subviews>
-                            </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="face.smiling.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="yxy-F4-kOn">
-                                <rect key="frame" x="-12" y="157" width="200" height="142"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" fixedFrame="YES" text="Points / Stars" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUW-tu-zen">
+                                <rect key="frame" x="85" y="371" width="178.33333333333326" height="34.666666666666515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxI-Nl-TOA">
+                                <rect key="frame" x="37" y="374" width="315.33333333333303" height="28.666666666666515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You filed a report on 1/28/2022 at 17:43.  License plate number: A1B2C3" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="795-hr-r0a">
+                                <rect key="frame" x="16" y="481" width="361" height="45.666666666666515"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Report History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qsv-wn-VH8">
+                                <rect key="frame" x="97" y="438" width="198" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSD-U2-QHj">
+                                <rect key="frame" x="197" y="167" width="145" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Richard
+Whittaker</string>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEv-oa-DbK">
+                                <rect key="frame" x="197" y="219" width="155.33333333333334" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">2024
+White Maserati</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ProfilePic" translatesAutoresizingMaskIntoConstraints="NO" id="QF7-kO-1zV">
+                                <rect key="frame" x="-28" y="103" width="239" height="197"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You filed a report on 8/11/2022 at 09:39.  License plate number: X3Y2Z1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oP0-74-iH2">
+                                <rect key="frame" x="14" y="534" width="361" height="45.66666666666697"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You filed a report on 3/3/2023 at 12:02.  License plate number: MJHJK1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WA-f4-1YR">
+                                <rect key="frame" x="14" y="587" width="361" height="45.66666666666697"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yjR-JB-VLi"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="yjR-JB-VLi" firstAttribute="bottom" secondItem="AqS-Iv-tZg" secondAttribute="bottom" constant="0.33000000000000002" id="1um-4p-t5y"/>
-                            <constraint firstItem="AqS-Iv-tZg" firstAttribute="leading" secondItem="yjR-JB-VLi" secondAttribute="leading" constant="16" id="F8r-z7-6MA"/>
-                            <constraint firstItem="yjR-JB-VLi" firstAttribute="trailing" secondItem="AqS-Iv-tZg" secondAttribute="trailing" constant="16" id="KAi-DO-T2R"/>
-                            <constraint firstItem="1EU-z5-SgJ" firstAttribute="leading" secondItem="yjR-JB-VLi" secondAttribute="leading" constant="16" id="Pap-6c-Psp"/>
-                            <constraint firstItem="AqS-Iv-tZg" firstAttribute="top" secondItem="1EU-z5-SgJ" secondAttribute="bottom" constant="65.329999999999998" id="Pua-tG-Vlf"/>
-                            <constraint firstItem="yjR-JB-VLi" firstAttribute="trailing" secondItem="1EU-z5-SgJ" secondAttribute="trailing" constant="61.670000000000002" id="WZT-zF-P5C"/>
-                            <constraint firstItem="yjR-JB-VLi" firstAttribute="bottom" secondItem="lEU-q8-aiD" secondAttribute="bottom" constant="482" id="ZEu-gl-oNi"/>
-                            <constraint firstItem="lEU-q8-aiD" firstAttribute="top" secondItem="yjR-JB-VLi" secondAttribute="top" constant="64" id="hna-kB-Uxf"/>
-                            <constraint firstItem="yjR-JB-VLi" firstAttribute="trailing" secondItem="lEU-q8-aiD" secondAttribute="trailing" constant="96" id="lqo-MJ-w1w"/>
-                            <constraint firstItem="1EU-z5-SgJ" firstAttribute="top" secondItem="lEU-q8-aiD" secondAttribute="bottom" constant="127" id="w9e-9n-2c2"/>
-                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="M7q-1r-8cV"/>
+                    <navigationItem key="navigationItem" title="Profile" id="M7q-1r-8cV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A2z-XW-eP6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -738,7 +735,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                     <tabBarItem key="tabBarItem" title="Profile" image="person.circle.fill" catalog="system" id="cTi-Or-3jL"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z4P-We-cz6">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -755,11 +752,11 @@ If your taillight gets tagged by another user, you'll receive a notification on 
             <objects>
                 <viewController id="ojt-YW-RPd" customClass="PostViewController" customModule="AutoEye" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BOL-DL-Akw">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ct0-mX-bYW">
-                                <rect key="frame" x="0.0" y="103" width="393" height="435"/>
+                                <rect key="frame" x="0.0" y="56" width="393" height="435"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a caption..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6jX-Rk-C8Z">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="34"/>
@@ -836,12 +833,16 @@ If your taillight gets tagged by another user, you'll receive a notification on 
             <point key="canvasLocation" x="2767" y="1085"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="qOG-s4-BEA"/>
+        <segue reference="W9Z-Br-0io"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="AutoEye_Wireframe_Digital_Mockups-removebg-preview" width="713" height="350"/>
+        <image name="ProfilePic" width="292" height="382"/>
         <image name="bell.circle.fill" catalog="system" width="128" height="123"/>
         <image name="camera" catalog="system" width="128" height="93"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
-        <image name="face.smiling.fill" catalog="system" width="128" height="123"/>
         <image name="keyboard.fill" catalog="system" width="128" height="78"/>
         <image name="person.circle.fill" catalog="system" width="128" height="123"/>
         <image name="photo" catalog="system" width="128" height="93"/>
