@@ -34,6 +34,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 assertionFailure("Error saving: \(error)")
             }
         }
+        
+        
         return true
     }
 
@@ -90,49 +92,3 @@ extension GameScore {
 //
 // let score = GameScore(playerName: "Kingsley", points: 13)
 
-
-
-//Notifications skeleton
-/*
-UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge, .carPlay ]){
-         (granted, error) in
-         print("Permission granted: \(granted)")
-         guard granted else { return }
-         self.getNotificationSettings()
-}
-func getNotificationSettings() {
-    UNUserNotificationCenter.current().getNotificationSettings { (settings) in
-        print("Notification settings: \(settings)")
-        guard settings.authorizationStatus == .authorized else { return }
-        UIApplication.shared.registerForRemoteNotifications()
-    }
-}
-
-func application(_ application: UIApplication,
-                 didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-    createInstallationOnParse(deviceTokenData: deviceToken)
-}
-
-func application(_ application: UIApplication,
-                 didFailToRegisterForRemoteNotificationsWithError error: Error) {
-    print("Failed to register: \(error)")
-}
-
-func createInstallationOnParse(deviceTokenData:Data){
-    if let installation = PFInstallation.current(){
-        installation.setDeviceTokenFrom(deviceTokenData)
-        installation.saveInBackground {
-            (success: Bool, error: Error?) in
-            if (success) {
-                print("You have successfully saved your push installation to Back4App!")
-            } else {
-                if let myError = error{
-                    print("Error saving parse installation \(myError.localizedDescription)")
-                }else{
-                    print("Uknown error")
-                }
-            }
-        }
-    }
-}
-*/
