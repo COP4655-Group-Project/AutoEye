@@ -8,7 +8,11 @@
 import Foundation
 import ParseSwift
 
+
 struct User: ParseUser {
+
+    
+    
     // required by `ParseObject`
     var objectId: String?
     var createdAt: Date?
@@ -28,7 +32,10 @@ struct User: ParseUser {
     var licensePlate: String?
     var vehicleInfo: String?
     var points: Int?
-    var reportHistory: [Report]
+    var numReports: Int?
     
-
 }
+
+
+
+
