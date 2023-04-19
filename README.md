@@ -1,7 +1,6 @@
 # AutoEye (iOS App Project) 
 
 ## Table of Contents
-1. [Submission Info] (#Submission-Info)
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
