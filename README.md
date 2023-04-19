@@ -1,10 +1,31 @@
 # AutoEye (iOS App Project) 
 
 ## Table of Contents
+1. [Submission Info] (#Submission Info)
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
+
+
+##Submission Info
+# Project 10 - *AutoEyee*
+
+Submitted by: **AutoEye**
+
+**AutoEye** is an app that allows users to report to a another car that their tail light is out, using either a photo or manual reporting system.
+
+Time spent: **30** hours spent in total
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with ...  
+
+
 
 ## Overview
 ### Description
