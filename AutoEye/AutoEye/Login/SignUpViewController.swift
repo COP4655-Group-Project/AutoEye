@@ -13,10 +13,15 @@ import UIKit
 
 class SignUpViewController: UIViewController {
     //need to connect these in storyboard
+    @IBOutlet weak var firstNameField: UITextField!
+    @IBOutlet weak var lastNameField: UITextField!
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
-
+    @IBOutlet weak var carMakeField: UITextField!
+    @IBOutlet weak var carModelField: UITextField!
+    @IBOutlet weak var licensePlateModel: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -60,7 +65,7 @@ class SignUpViewController: UIViewController {
     }
 
     private func showMissingFieldsAlert() {
-        let alertController = UIAlertController(title: "Opps...", message: "We need all fields filled out in order to sign you up.", preferredStyle: .alert)
+        let alertController = UIAlertController(title: "Oops...", message: "We need all fields filled out in order to sign you up.", preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default)
         alertController.addAction(action)
         present(alertController, animated: true)
