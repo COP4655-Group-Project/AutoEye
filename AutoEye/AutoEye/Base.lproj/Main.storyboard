@@ -308,13 +308,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="mJO-l0-0zy">
-                                <rect key="frame" x="5" y="76" width="380" height="554"/>
+                                <rect key="frame" x="5" y="76" width="378" height="554"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ysf-Ol-IW7">
-                                        <rect key="frame" x="0.0" y="0.0" width="380" height="37.666666666666664"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="378" height="37.666666666666664"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="A Guide to AutoEye" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rrg-5t-l1u">
-                                                <rect key="frame" x="0.0" y="0.0" width="380" height="37.666666666666664"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="378" height="37.666666666666664"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="HiraginoSans-W7" family="Hiragino Sans" pointSize="26"/>
@@ -323,17 +323,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EXH-Br-0EL">
-                                        <rect key="frame" x="0.0" y="68.666666666666657" width="380" height="122.66666666666666"/>
+                                        <rect key="frame" x="0.0" y="68.666666666666657" width="378" height="122.66666666666666"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="WHAT IS AUTOEYE?" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wm5-Pa-7Gd">
-                                                <rect key="frame" x="0.0" y="0.0" width="380" height="27"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="378" height="27"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZg-XQ-w6O">
-                                                <rect key="frame" x="0.0" y="27.000000000000007" width="380" height="95.666666666666686"/>
+                                                <rect key="frame" x="0.0" y="27.000000000000007" width="378" height="95.666666666666686"/>
                                                 <string key="text">AutoEye provides a quick and easy way for drivers to help each other stay safe on the road. With just a few clicks, users can notify other drivers that their taillight is out by uploading a picture of the vehicle's license plate.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -342,17 +342,17 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BKZ-xR-FMO">
-                                        <rect key="frame" x="0.0" y="222.33333333333334" width="380" height="84.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="222.33333333333334" width="378" height="84.333333333333343"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="MISSION" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YS7-5c-w5d">
-                                                <rect key="frame" x="0.0" y="0.0" width="380" height="27"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="378" height="27"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" ambiguous="YES" text="Our app is designed to help drivers stay safe on the road by promoting community awareness and responsibility." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecG-aW-KZc">
-                                                <rect key="frame" x="0.0" y="27.000000000000004" width="380" height="57.333333333333343"/>
+                                                <rect key="frame" x="0.0" y="27.000000000000004" width="378" height="57.333333333333343"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -364,16 +364,16 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="A8V-9P-N9a">
-                                        <rect key="frame" x="0.0" y="337.66666666666669" width="380" height="216.33333333333331"/>
+                                        <rect key="frame" x="0.0" y="337.66666666666669" width="378" height="216.33333333333331"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="HOW TO USE AUTOEYE?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eaX-K2-8GA">
-                                                <rect key="frame" x="0.0" y="0.0" width="380" height="25.333333333333332"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="378" height="25.333333333333332"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QxI-zK-op4">
-                                                <rect key="frame" x="0.0" y="25.333333333333314" width="380" height="191"/>
+                                                <rect key="frame" x="0.0" y="25.333333333333314" width="378" height="191"/>
                                                 <string key="text">To use the app, users can create a free account by registering and logging in. Once logged in, they can browse notifications from other users and earn points for submitting helpful notifications.
 If your taillight gets tagged by another user, you'll receive a notification on your device with a picture of your vehicle's license plate, letting you know that your taillight is out. This way, you can quickly take action and fix the issue before it becomes a safety hazard.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -468,7 +468,7 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="eoX-ez-eeM">
-                                                        <rect key="frame" x="19.666666666666675" y="82" width="59.333333333333343" height="67.333333333333314"/>
+                                                        <rect key="frame" x="19.666666666666671" y="82" width="59.333333333333343" height="67.333333333333314"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camera" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nm5-K6-4Wu">
                                                                 <rect key="frame" x="0.0" y="0.0" width="59.333333333333336" height="67.333333333333329"/>
@@ -728,9 +728,9 @@ If your taillight gets tagged by another user, you'll receive a notification on 
                                                         </constraints>
                                                     </imageView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iF1-t9-2fO">
-                                                        <rect key="frame" x="45.666666666666671" y="197" width="75" height="34.333333333333343"/>
+                                                        <rect key="frame" x="5.3333333333333286" y="197" width="155.33333333333337" height="34.333333333333343"/>
                                                         <state key="normal" title="Button"/>
-                                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Edit Profile Photo"/>
                                                         <connections>
                                                             <action selector="uploadProfilePictureTapped:" destination="4Wt-di-Qj8" eventType="touchUpInside" id="M0V-0y-zz2"/>
                                                         </connections>
@@ -1072,16 +1072,16 @@ PRGRMR</string>
     <resources>
         <image name="AutoEye_Wireframe_Digital_Mockups-removebg-preview" width="713" height="350"/>
         <image name="ProfilePic" width="292" height="382"/>
-        <image name="bell.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="bell.circle.fill" catalog="system" width="32" height="32"/>
         <image name="camera" catalog="system" width="128" height="93"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="keyboard.fill" catalog="system" width="128" height="78"/>
-        <image name="person.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="person.circle.fill" catalog="system" width="32" height="32"/>
         <image name="photo" catalog="system" width="128" height="93"/>
         <image name="photo.artframe" catalog="system" width="128" height="93"/>
         <image name="plus.app" catalog="system" width="128" height="114"/>
-        <image name="plus.app.fill" catalog="system" width="128" height="114"/>
-        <image name="questionmark.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="plus.app.fill" catalog="system" width="32" height="32"/>
+        <image name="questionmark.circle.fill" catalog="system" width="32" height="32"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
