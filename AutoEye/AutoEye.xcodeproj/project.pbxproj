@@ -13,6 +13,7 @@
 		C2714ADC29E71A3100CAEFAE /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2714ADB29E71A3100CAEFAE /* ViewControllerExtensions.swift */; };
 		C2E69CE629EF988D0067CA08 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E69CE529EF988D0067CA08 /* PostViewController.swift */; };
 		C2E69CE829EF99040067CA08 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E69CE729EF99040067CA08 /* Post.swift */; };
+		C840983129EFE073007576CD /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C840983029EFE073007576CD /* FAQViewController.swift */; };
 		C84225AA29E6833F005CD832 /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C84225A929E6833F005CD832 /* ParseSwift */; };
 		C84225AD29E68518005CD832 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AC29E68518005CD832 /* Alamofire */; };
 		C84225B029E68830005CD832 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = C84225AF29E68830005CD832 /* AlamofireImage */; };
@@ -34,6 +35,7 @@
 		C2714ADB29E71A3100CAEFAE /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		C2E69CE529EF988D0067CA08 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		C2E69CE729EF99040067CA08 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		C840983029EFE073007576CD /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		C89BC45429EE6CEE00F5C3D4 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		C89BC45729EE71D100F5C3D4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		C8B4BDB229CB4E5F00134881 /* AutoEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +96,14 @@
 			path = Post;
 			sourceTree = "<group>";
 		};
+		C840982F29EFE040007576CD /* FAQ */ = {
+			isa = PBXGroup;
+			children = (
+				C840983029EFE073007576CD /* FAQViewController.swift */,
+			);
+			path = FAQ;
+			sourceTree = "<group>";
+		};
 		C89BC45329EE6C9000F5C3D4 /* Report */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +148,7 @@
 				C8B4BDC029CB4E6100134881 /* LaunchScreen.storyboard */,
 				C2714ADA29E71A0C00CAEFAE /* Extensions */,
 				C8B4BDC329CB4E6100134881 /* Info.plist */,
+				C840982F29EFE040007576CD /* FAQ */,
 				C2E69CE429EF98690067CA08 /* Post */,
 				C2714AD729E716FA00CAEFAE /* Models */,
 				C2263BC629CE24DA00E15792 /* Login */,
@@ -238,6 +249,7 @@
 				C89BC45529EE6CEE00F5C3D4 /* KeyboardViewController.swift in Sources */,
 				C8B4BDB829CB4E5F00134881 /* SceneDelegate.swift in Sources */,
 				C89BC45829EE71D100F5C3D4 /* ProfileViewController.swift in Sources */,
+				C840983129EFE073007576CD /* FAQViewController.swift in Sources */,
 				C2263BC829CE255600E15792 /* SignUpViewController.swift in Sources */,
 				C2714ADC29E71A3100CAEFAE /* ViewControllerExtensions.swift in Sources */,
 			);

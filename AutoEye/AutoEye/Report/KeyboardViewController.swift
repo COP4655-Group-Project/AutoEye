@@ -13,8 +13,10 @@ class KeyboardViewController: UIViewController {
     @IBOutlet weak var carMakeTextField: UITextField!
     @IBOutlet weak var carColorTextField: UITextField!
     
+    @IBOutlet weak var sumbitButton: UIButton!
+    
 
-    @IBAction func notifyCarDetails(_ sender: UIButton) {
+    @IBAction func submitOnTapped(_ sender: UIButton) {
         let notification = "Your \(carColorTextField.text!) \(carMakeTextField.text!)'s taillight has been reported as nonfunctional. The vehicle's license plate number is \(licensePlateNoTextField.text!). Please be advised to check."
         
         print(notification);

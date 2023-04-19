@@ -21,18 +21,18 @@ struct User: ParseUser {
     var originalData: Data?
 
     // required by `ParseUser`
+    var firstname: String?
+    var lastname: String?
     var username: String?
     var email: String?
     var emailVerified: Bool?
     var password: String?
+    var carMake: String?
+    var carModel: String?
+    var licensePlate: String?
     var authData: [String: [String: String]?]?
 
     // Your custom properties.
-    
-    var licensePlate: String?
-    var vehicleInfo: String?
-    var points: Int?
-    var numReports: Int?
     
 }
 

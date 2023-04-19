@@ -30,21 +30,36 @@ class SignUpViewController: UIViewController {
     @IBAction func onSignUpTapped(_ sender: Any) {
 
         // Make sure all fields are non-nil and non-empty.
-        guard let username = usernameField.text,
+        guard let firstname = firstNameField.text,
+              let lastname = lastNameField.text,
+              let username = usernameField.text,
               let email = emailField.text,
               let password = passwordField.text,
+              let carmake = carMakeField.text,
+              let carmodel = carModelField.text,
+              let licenseplate = licensePlateModel.text,
+              !firstname.isEmpty,
+              !lastname.isEmpty,
               !username.isEmpty,
               !email.isEmpty,
-              !password.isEmpty else {
-
+              !password.isEmpty,
+              !carmake.isEmpty,
+              !carmodel.isEmpty,
+              !licenseplate.isEmpty
+        else {
             showMissingFieldsAlert()
             return
         }
 
         var newUser = User()
+        newUser.firstname = firstname
+        newUser.lastname = lastname
         newUser.username = username
         newUser.email = email
         newUser.password = password
+        newUser.carMake = carmake
+        newUser.carModel = carmodel
+        newUser.licensePlate = licenseplate
 
         newUser.signup { [weak self] result in
 
@@ -59,9 +74,10 @@ class SignUpViewController: UIViewController {
             case .failure(let error):
                 // Failed sign up
                 print("fail")
-                //self?.showAlert(description: error.localizedDescription)
+                self?.showAlert(description: error.localizedDescription)
             }
         }
+
     }
 
     private func showMissingFieldsAlert() {
