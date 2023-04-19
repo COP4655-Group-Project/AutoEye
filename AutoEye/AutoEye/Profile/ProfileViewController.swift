@@ -15,9 +15,11 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 */
 
 import UIKit
+import PhotosUI
+import ParseSwift
 
 //Profile Skeleton
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     
     @IBOutlet weak var nameProfile: UILabel!
@@ -26,6 +28,30 @@ class ProfileViewController: UIViewController {
     
     @IBOutlet weak var starStepper: UIStepper!
     @IBOutlet weak var numberOfStars: UILabel!
+    
+    @IBOutlet weak var profileImageView: UIImageView!
+    private var pickedImage: UIImage?
+    
+    
+    @IBAction func uploadProfilePictureTapped(_ sender: UIButton) {
+        let imagePickerController = UIImagePickerController()
+        imagePickerController.delegate = self
+        imagePickerController.allowsEditing = true
+        imagePickerController.sourceType = .photoLibrary
+        
+        present(imagePickerController, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        if let editedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage {
+            profileImageView.image = editedImage
+        } else if let originalImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+            profileImageView.image = originalImage
+        }
+        
+        dismiss(animated: true, completion: nil)
+    }
+    
     
     // var userProfile: UserProfile?
     
@@ -62,3 +88,39 @@ class ProfileViewController: UIViewController {
         } */
     }
 
+//import UIKit
+//import PhotosUI
+//import ParseSwift
+//
+//// TODO: Import Photos UI
+//// TODO: Import Parse Swift
+//
+//class ProfileViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+//
+//    // MARK: Outlets
+//
+//
+//    @IBOutlet weak var profileImageView: UIImageView!
+//    private var pickedImage: UIImage?
+//
+//
+//    @IBAction func uploadProfilePictureTapped(_ sender: UIButton) {
+//        let imagePickerController = UIImagePickerController()
+//        imagePickerController.delegate = self
+//        imagePickerController.allowsEditing = true
+//        imagePickerController.sourceType = .photoLibrary
+//
+//        present(imagePickerController, animated: true, completion: nil)
+//    }
+//
+//    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+//        if let editedImage = info[UIImagePickerController.InfoKey.editedImage] as? UIImage {
+//            profileImageView.image = editedImage
+//        } else if let originalImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+//            profileImageView.image = originalImage
+//        }
+//
+//        dismiss(animated: true, completion: nil)
+//    }
+//
+//}
